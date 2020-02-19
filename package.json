@@ -2,9 +2,10 @@
   "name": "git-webhooks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/adepanges/git-webhooks/issues"
   },
-  "homepage": "https://github.com/adepanges/git-webhooks#readme"
+  "homepage": "https://github.com/adepanges/git-webhooks#readme",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1",
+    "axios": "^0.19.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.1.0",
+    "eslint": "^6.7.2",
+    "moment-timezone": "^0.5.26",
+    "q": "^1.1.2"
+  }
 }
